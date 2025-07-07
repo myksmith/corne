@@ -115,6 +115,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LC(LS(NUMBER_4)))  &kp LG(GRAVE)  &kp LS(LG(GRAVE))  &trans     &trans  &trans
                         &trans  &trans  &trans    &trans                    &trans         &trans
             >;
+
+            label = "nav";
         };
 
         num-sym {
@@ -124,6 +126,8 @@
 &kp CAPS   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp LBKT  &kp RBKT  &kp BSLH
                            &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "num-sym";
         };
 
         setup {
