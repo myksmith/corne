@@ -148,6 +148,8 @@
 &trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans    &kp LS(RPAR)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &trans        &trans
                         &trans  &trans  &trans    &trans        &trans        &trans
             >;
+
+            label = "numpad";
         };
     };
 
