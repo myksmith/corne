@@ -121,10 +121,10 @@
 
         num-sym {
             bindings = <
-&kp GRAVE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp MINUS
-&trans     &kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &kp EQUAL
-&kp CAPS   &trans        &trans      &trans         &trans        &trans           &trans         &kp LS(LBRC)  &kp LS(RBRC)  &kp LBKT      &kp RBKT      &kp BSLH
-                                     &trans         &trans        &trans           &trans         &trans        &trans
+&kp GRAVE  &kp LS(EXCL)                   &kp LS(AT)                 &kp LS(POUND)                  &kp LS(DLLR)                 &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)                  &kp LS(STAR)                    &kp LS(LPAR)          &kp LS(RPAR)              &kp MINUS
+&trans     &HRL250 LEFT_CONTROL NUMBER_1  &HRL250 LEFT_ALT NUMBER_2  &HRL150 LEFT_COMMAND NUMBER_3  &HRL150 LEFT_SHIFT NUMBER_4  &kp N5           &kp N6         &hrr150 RIGHT_SHIFT NUMBER_7  &hrr150 RIGHT_COMMAND NUMBER_8  &HRR250 RIGHT_ALT N9  &HRR250 RIGHT_CONTROL N0  &kp EQUAL
+&kp CAPS   &trans                         &trans                     &trans                         &trans                       &kp LBKT         &kp RBKT       &kp LS(LBRC)                  &kp LS(RBRC)                    &kp LBKT              &kp RBKT                  &kp BSLH
+                                                                     &trans                         &trans                       &trans           &trans         &trans                        &trans
             >;
 
             label = "num-sym";
