@@ -89,6 +89,15 @@
         };
     };
 
+    macros {
+        perplexity_vc_search: perplexity_vc_search {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp W &kp O &kp U &kp L &kp D &kp SPACE &kp LS(X) &kp LS(X) &kp LS(X) &kp SPACE &kp B &kp E &kp SPACE &kp A &kp SPACE &kp G &kp O &kp O &kp D &kp SPACE &kp F &kp I &kp T &kp SPACE &kp G &kp I &kp V &kp E &kp N &kp SPACE &kp T &kp H &kp E &kp SPACE &kp I &kp N &kp V &kp E &kp S &kp T &kp O &kp R &kp SPACE &kp S &kp E &kp A &kp R &kp C &kp H &kp SPACE &kp C &kp R &kp I &kp T &kp E &kp R &kp I &kp A>;
+            label = "PERPLEXITY_VC_SEARCH";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -143,10 +152,10 @@
 
         numpad {
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &kp N0       &trans        &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &kp COLON    &trans        &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &trans        &trans
-&trans  &kp N0  &kp N1  &kp N2  &kp N3  &kp MINUS    &kp LS(RPAR)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &trans        &trans
-                        &trans  &trans  &trans       &trans        &trans        &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &kp N0       &perplexity_vc_search  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RPAR)  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp COLON    &trans                 &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &trans        &trans
+&trans  &kp N0  &kp N1  &kp N2  &kp N3  &kp MINUS    &kp LS(RPAR)           &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &trans        &trans
+                        &trans  &trans  &trans       &trans                 &trans        &trans
             >;
 
             label = "numpad";
