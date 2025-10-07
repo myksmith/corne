@@ -87,6 +87,19 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 36 37 38>;
         };
+
+        lt150: lt150 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT150";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <100>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 36 37 38>;
+        };
     };
 
     macros {
@@ -110,10 +123,10 @@
 
             display-name = "Base";
             bindings = <
-&mt ESC TAB     &kp Q                   &kp W           &kp E               &kp R                 &kp T        &kp Y    &kp U                  &kp I                &kp O                &kp P                            &kp MINUS
-&kp CAPSLOCK    &HRL250 LEFT_CONTROL A  &HRL250 LALT S  &HRL150 LEFT_GUI D  &HRL150 LEFT_SHIFT F  &kp G        &kp H    &hrr150 RIGHT_SHIFT J  &hrr150 RIGHT_GUI K  &HRR250 RIGHT_ALT L  &HRR250 RIGHT_CONTROL SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z                   &kp X           &kp C               &kp V                 &kp B        &kp N    &kp M                  &kp COMMA            &kp DOT              &kp FSLH                         &kp EQUAL
-                                                        &mo 4               &lt 2 BACKSPACE       &lt 2 TAB    &kp RET  &lt 1 SPACE            &mo 4
+&mt ESC TAB     &kp Q                   &kp W           &kp E               &kp R                 &kp T           &kp Y    &kp U                  &kp I                &kp O                &kp P                            &kp MINUS
+&kp CAPSLOCK    &HRL250 LEFT_CONTROL A  &HRL250 LALT S  &HRL150 LEFT_GUI D  &HRL150 LEFT_SHIFT F  &kp G           &kp H    &hrr150 RIGHT_SHIFT J  &hrr150 RIGHT_GUI K  &HRR250 RIGHT_ALT L  &HRR250 RIGHT_CONTROL SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z                   &kp X           &kp C               &kp V                 &kp B           &kp N    &kp M                  &kp COMMA            &kp DOT              &kp FSLH                         &kp EQUAL
+                                                        &mo 4               &lt150 2 BACKSPACE    &lt150 2 TAB    &kp RET  &lt 1 SPACE            &mo 4
             >;
         };
 
