@@ -145,7 +145,7 @@
             bindings = <
 &kp GRAVE  &kp LS(EXCL)                   &kp LS(AT)                 &kp LS(POUND)                  &kp LS(DLLR)                 &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)                  &kp LS(STAR)                    &kp LS(LPAR)          &kp LS(RPAR)              &kp MINUS
 &trans     &HRL250 LEFT_CONTROL NUMBER_1  &HRL250 LEFT_ALT NUMBER_2  &HRL150 LEFT_COMMAND NUMBER_3  &HRL150 LEFT_SHIFT NUMBER_4  &kp N5           &kp N6         &hrr150 RIGHT_SHIFT NUMBER_7  &hrr150 RIGHT_COMMAND NUMBER_8  &HRR250 RIGHT_ALT N9  &HRR250 RIGHT_CONTROL N0  &kp EQUAL
-&kp CAPS   &trans                         &kp PLUS                   &kp MINUS                      &kp COLON                    &kp LBKT         &kp RBKT       &kp LS(LBRC)                  &kp LS(RBRC)                    &trans                &trans                    &kp BSLH
+&trans     &trans                         &kp PLUS                   &kp MINUS                      &kp COLON                    &kp LBKT         &kp RBKT       &kp LS(LBRC)                  &kp LS(RBRC)                    &trans                &trans                    &kp BSLH
                                                                      &trans                         &trans                       &trans           &trans         &trans                        &trans
             >;
 
