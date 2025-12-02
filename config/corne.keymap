@@ -123,10 +123,10 @@
 
             display-name = "Base";
             bindings = <
-&mt ESC TAB     &kp Q                   &kp W           &kp E               &kp R                 &kp T                   &kp Y    &kp U                  &kp I                &kp O                &kp P                            &kp MINUS
-&kp CAPSLOCK    &HRL250 LEFT_CONTROL A  &HRL250 LALT S  &HRL150 LEFT_GUI D  &HRL150 LEFT_SHIFT F  &kp G                   &kp H    &hrr150 RIGHT_SHIFT J  &hrr150 RIGHT_GUI K  &HRR250 RIGHT_ALT L  &HRR250 RIGHT_CONTROL SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z                   &kp X           &kp C               &kp V                 &kp B                   &kp N    &kp M                  &kp COMMA            &kp DOT              &kp FSLH                         &kp EQUAL
-                                                        &kp LEFT_COMMAND    &lt150 2 BACKSPACE    &mt LEFT_COMMAND TAB    &kp RET  &lt 1 SPACE            &mo 4
+&kp ESC                  &kp Q                   &kp W           &kp E               &kp R                 &kp T                   &kp Y    &kp U                  &kp I                &kp O                &kp P                            &kp MINUS
+&kp TAB                  &HRL250 LEFT_CONTROL A  &HRL250 LALT S  &HRL150 LEFT_GUI D  &HRL150 LEFT_SHIFT F  &kp G                   &kp H    &hrr150 RIGHT_SHIFT J  &hrr150 RIGHT_GUI K  &HRR250 RIGHT_ALT L  &HRR250 RIGHT_CONTROL SEMICOLON  &kp SQT
+&mt LEFT_SHIFT CAPSLOCK  &kp Z                   &kp X           &kp C               &kp V                 &kp B                   &kp N    &kp M                  &kp COMMA            &kp DOT              &kp FSLH                         &kp EQUAL
+                                                                 &kp LEFT_COMMAND    &lt150 2 BACKSPACE    &mt LEFT_COMMAND TAB    &kp RET  &lt 1 SPACE            &mo 4
             >;
         };
 
