@@ -132,10 +132,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans                    &kp PG_UP      &kp UP             &kp PG_DN  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans                    &kp LEFT       &kp DOWN           &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LC(LS(NUMBER_4)))  &kp LG(GRAVE)  &kp LS(LG(GRAVE))  &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans                    &trans         &trans
+&trans      &trans  &trans  &trans  &trans  &trans    &trans                    &kp PG_UP      &kp UP             &kp PG_DN  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans    &trans                    &kp LEFT       &kp DOWN           &kp RIGHT  &trans  &trans
+&kp ESCAPE  &trans  &trans  &trans  &trans  &trans    &kp LG(LC(LS(NUMBER_4)))  &kp LG(GRAVE)  &kp LS(LG(GRAVE))  &trans     &trans  &trans
+                            &trans  &trans  &trans    &trans                    &trans         &trans
             >;
 
             label = "nav";
