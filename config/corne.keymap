@@ -111,6 +111,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_lockscreen {
+            bindings = <&kp LC(LG(Q))>;
+            key-positions = <15 16 19 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
